@@ -1,0 +1,10 @@
+_book
+.DS_Store
+.svn
+.subversion
+*.swp
+node_modules
+*.log
+.idea
+.vscode/
+package-lock.json

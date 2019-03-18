@@ -1,0 +1,79 @@
+{
+  "title": "liangyu blog",
+  "author": "liangyu",
+  "description": "liangyu学习",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "structure": {
+      "readme": "README.md"
+  },
+  "links": {
+      "sidebar": {
+          "我的邮箱": "https://blog.feiliangyu.com/vbook"
+      }
+  },
+  "plugins": [
+      "-sharing",
+      "splitter",
+      "expandable-chapters-small",
+
+      "github",
+      "github-buttons",
+      "donate",
+      "sharing-plus",
+      "favicon"
+  ],
+  "pluginsConfig": {
+      "github": {
+          "url": "https://github.com/zaiaifreedom"
+      },
+      "github-buttons": {
+          "buttons": [{
+              "user": "liangyu",
+              "repo": "zaiaifreedom",
+              "type": "star",
+              "size": "small",
+              "count": true
+              }
+          ]
+      },
+      "donate": {
+          "alipay": "./source/images/donate.png",
+          "title": "",
+          "button": "赞赏",
+          "alipayText": " "
+      },
+      "sharing": {
+          "douban": false,
+          "facebook": false,
+          "google": false,
+          "hatenaBookmark": false,
+          "instapaper": false,
+          "line": false,
+          "linkedin": false,
+          "messenger": false,
+          "pocket": false,
+          "qq": false,
+          "qzone": false,
+          "stumbleupon": false,
+          "twitter": false,
+          "viber": false,
+          "vk": false,
+          "weibo": false,
+          "whatsapp": false,
+          "all": [
+              "google", "facebook", "weibo", "twitter",
+              "qq", "qzone", "linkedin", "pocket"
+          ]
+      },
+      "favicon":{
+          "shortcut": "./source/images/favicon.jpg",
+          "bookmark": "./source/images/favicon.jpg",
+          "appleTouch": "./source/images/apple-touch-icon.jpg",
+          "appleTouchMore": {
+              "120x120": "./source/images/apple-touch-icon.jpg",
+              "180x180": "./source/images/apple-touch-icon.jpg"
+          }
+      }
+  }
+}
