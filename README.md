@@ -61,6 +61,7 @@ $ gitbook mobi ./ ./mybook.mobi
 
 参考官方 （https://toolchain.gitbook.com/plugins/）
 参考示例 （https://blankj.com/gitbook/gitbook/）
+
 ```
 gitbook install ./
 ```
